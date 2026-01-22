@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>  # post & put could be used interchangeably
+        <label for="">Name:</label>
+        <input type="text">
+        <br>
+         <label for="">Password:</label>
+        <input type="password">
+        <br>
+        <label for="">Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label for="">Age:</label>
+        <input type="number" max="200">
+        <br> <br>
+        <p>Which programming do you know?</p>
+        <input type="radio" id="lang 1" name="skill" value="html">
+        <label for="">HTML</label>
+
+        <input type="radio" id="lang 2" name="skill" value="Javascript">
+        <label for="">Javascript</label>
+
+        <input type="radio" id="lang 3" name="skill" value="CSS">
+        <label for="">CSS</label>
+
+          <br>
+             <label for="">Message</label>
+             <textarea name="message" id="message" cols="30" rows="5"></textarea>
+           <br>  
+             <label for="">User feedback</label>
+             <textarea name="user_feedback" id="feedback" cols="30"></textarea>
+
+         <br><br>
+         <label for="modules">Choose your current modules</label>
+         <select name="modules" id="modules">
+            <option value="web-dev">Web Dev Fundamentals</option>
+            <option value="js">Javascript</option>
+            <option value="react">React</option>
+            <option value="python">Python</option>
+            <option value="django">Django</option>
+         </select>
+
+              
+         <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
